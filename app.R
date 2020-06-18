@@ -120,7 +120,7 @@ server <- function(input, output) {
             addCircleMarkers(lat = Lat(),lng = Long())
     })
     output$disclaimer <- renderText(
-        "This app is for the use of the Inshore team of the Marine Institute only. The MI takes no responsibility for the information contained therein. All others use at their own risk "
+        "This app is intended for the use of the Inshore team of the Marine Institute. The MI takes no responsibility for the information contained therein."
     )
 }
 
